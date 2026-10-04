@@ -1,0 +1,41 @@
+claim_id,label,group_name,num_links,link_statuses,any_dead_or_check
+C0001,TRUE,MuddyWater,1,OK,False
+C0002,TRUE,APT3,1,"CHECK MANUALLY (fireeye.com domain retired, may redirect)",True
+C0003,TRUE,Confucius,1,DEAD (confirmed by user screenshot),True
+C0004,TRUE,Tropic Trooper,2,OK | OK,False
+C0005,TRUE,Akira,2,DEAD/403 (CISA reorganized file paths) | OK,True
+C0006,TRUE,TeamTNT,1,OK,False
+C0007,TRUE,HAFNIUM,1,OK,False
+C0008,TRUE,FIN13,1,"OK (archive.org link, should work)",False
+C0009,TRUE,Gorgon Group,1,"DEAD/404 (old Unit42 domain retired, moved to unit42.paloaltonetworks.com)",True
+C0010,TRUE,Fox Kitten,2,OK (old us-cert.cisa.gov domain still resolves/redirects) | OK,False
+C0011,TRUE,Kimsuky,2,"OK | CHECK MANUALLY (arbornetworks/ASERT rebranded to Netscout, old domain may be gone)",True
+C0012,TRUE,Mustard Tempest,4,OK | OK | OK | OK,False
+C0013,TRUE,APT32,1,OK,False
+C0014,TRUE,TA2541,1,OK,False
+C0015,TRUE,OilRig,1,OK (archive.org link),False
+C0016,TRUE,HEXANE,1,OK,False
+C0017,TRUE,APT3,2,"CHECK MANUALLY (fireeye.com domain retired) | CHECK MANUALLY (conference site, older content)",True
+C0018,TRUE,ShinyHunters,1,OK,False
+C0019,TRUE,Scattered Spider,1,OK,False
+C0020,TRUE,FIN13,1,"OK (archive.org link, should work)",False
+C0021,TRUE,Fox Kitten,1,OK (old us-cert.cisa.gov domain still resolves/redirects),False
+C0022,TRUE,TA2541,2,OK | OK,False
+C0023,TRUE,Earth Lusca,1,OK,False
+C0024,TRUE,Leviathan,1,OK,False
+C0025,TRUE,APT38,1,OK,False
+C0026,TRUE-ALIAS,Threat Group-3390,1,OK,False
+C0027,TRUE-ALIAS,TeamPCP,1,OK,False
+C0028,TRUE-ALIAS,Gamaredon Group,1,OK,False
+C0029,TRUE-ALIAS,Inception,1,OK,False
+C0030,TRUE-ALIAS,APT29,1,OK,False
+C0031,TRUE-ALIAS,Ke3chang,1,DEAD/REDIRECTED (redirects to generic research homepage - article removed),True
+C0032,TRUE-ALIAS,APT37,1,OK,False
+C0033,TRUE-ALIAS,FIN6,2,"OK (archive.org link) | CHECK MANUALLY (site blocked automated check, fireeye.com domain retired)",True
+C0034,TRUE-ALIAS,CURIUM,1,OK,False
+C0035,TRUE-ALIAS,Dragonfly,1,CHECK MANUALLY (not directly tested),True
+C0036,TRUE-ALIAS,Patchwork,1,OK,False
+C0037,TRUE-ALIAS,Leviathan,1,"CHECK MANUALLY (site blocked automated check, fireeye.com domain retired)",True
+C0038,TRUE-ALIAS,APT41,2,CHECK MANUALLY (not directly tested) | CHECK MANUALLY (site blocked automated check),True
+C0039,TRUE-ALIAS,APT1,1,"CHECK MANUALLY (site blocked automated check, fireeye.com domain retired)",True
+C0040,TRUE-ALIAS,Saint Bear,1,OK,False

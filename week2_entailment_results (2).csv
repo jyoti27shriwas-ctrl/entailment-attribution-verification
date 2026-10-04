@@ -1,0 +1,86 @@
+claim_id,label,gold_label,claim_text,evidence_text_len,pred_with_retrieval,pred_no_retrieval
+C0001,TRUE,True,"MuddyWater has used the technique ""Local Data Staging"" (T1074.001).",3000,Unsure,Unsure
+C0002,TRUE,True,"APT3 has used the technique ""Spearphishing Link"" (T1566.002).",0,Unsure,Unsure
+C0003,TRUE,True,"Confucius has used the technique ""PowerShell"" (T1059.001).",3000,Unsure,Unsure
+C0004,TRUE,True,"Tropic Trooper has used the technique ""Network Service Discovery"" (T1046).",0,Unsure,Unsure
+C0005,TRUE,True,"Akira has used the technique ""Data Encrypted for Impact"" (T1486).",0,Unsure,Unsure
+C0006,TRUE,True,"TeamTNT has used the technique ""Match Legitimate Resource Name or Location"" (T1036.005).",3000,Unsure,Unsure
+C0007,TRUE,True,"HAFNIUM has used the technique ""Client Configurations"" (T1592.004).",3000,Unsure,Unsure
+C0008,TRUE,True,"FIN13 has used the technique ""Make and Impersonate Token"" (T1134.003).",264,Unsure,Unsure
+C0009,TRUE,True,"Gorgon Group has used the technique ""Shortcut Modification"" (T1547.009).",3000,Unsure,Unsure
+C0010,TRUE,True,"Fox Kitten has used the technique ""Network Service Discovery"" (T1046).",3000,Unsure,Unsure
+C0011,TRUE,True,"Kimsuky has used the technique ""Network Sniffing"" (T1040).",3000,Unsure,Unsure
+C0012,TRUE,True,"Mustard Tempest has used the technique ""Drive-by Compromise"" (T1189).",3000,Unsure,Unsure
+C0013,TRUE,True,"APT32 has used the technique ""Lateral Tool Transfer"" (T1570).",0,Unsure,Unsure
+C0014,TRUE,True,"TA2541 has used the technique ""Registry Run Keys / Startup Folder"" (T1547.001).",3000,Unsure,Unsure
+C0015,TRUE,True,"OilRig has used the technique ""Password Policy Discovery"" (T1201).",3000,Unsure,Unsure
+C0016,TRUE,True,"HEXANE has used the technique ""Email Accounts"" (T1586.002).",3000,Unsure,Unsure
+C0017,TRUE,True,"APT3 has used the technique ""File and Directory Discovery"" (T1083).",0,Unsure,Unsure
+C0018,TRUE,True,"ShinyHunters has used the technique ""Code Repositories"" (T1593.003).",3000,True,Unsure
+C0019,TRUE,True,"Scattered Spider has used the technique ""Cloud Services"" (T1021.007).",3000,Unsure,Unsure
+C0020,TRUE,True,"FIN13 has used the technique ""Credentials In Files"" (T1552.001).",264,Unsure,Unsure
+C0021,TRUE,True,"Fox Kitten has used the technique ""Encrypted/Encoded File"" (T1027.013).",3000,Unsure,Unsure
+C0022,TRUE,True,"TA2541 has used the technique ""Domains"" (T1583.001).",3000,Unsure,Unsure
+C0023,TRUE,True,"Earth Lusca has used the technique ""DLL"" (T1574.001).",0,Unsure,Unsure
+C0024,TRUE,True,"Leviathan has used the technique ""Social Media Accounts"" (T1586.001).",3000,Unsure,Unsure
+C0025,TRUE,True,"APT38 has used the technique ""Mutual Exclusion"" (T1480.002).",3000,Unsure,Unsure
+C0026,TRUE-ALIAS,True,"Iron Tiger has used the technique ""Local Account"" (T1087.001).",3000,Unsure,Unsure
+C0027,TRUE-ALIAS,True,"ShellForce has used the technique ""Systemd Service"" (T1543.002).",3000,Unsure,Unsure
+C0028,TRUE-ALIAS,True,"Aqua Blizzard has used the technique ""Web Service"" (T1102).",3000,Unsure,Unsure
+C0029,TRUE-ALIAS,True,"Cloud Atlas has used the technique ""Data from Local System"" (T1005).",3000,Unsure,Unsure
+C0030,TRUE-ALIAS,True,"YTTRIUM has used the technique ""Vulnerability Scanning"" (T1595.002).",0,Unsure,Unsure
+C0031,TRUE-ALIAS,True,"Playful Dragon has used the technique ""Registry Run Keys / Startup Folder"" (T1547.001).",2826,Unsure,Unsure
+C0032,TRUE-ALIAS,True,"InkySquid has used the technique ""Process Injection"" (T1055).",3000,Unsure,Unsure
+C0033,TRUE-ALIAS,True,"Camouflage Tempest has used the technique ""Command and Scripting Interpreter"" (T1059).",235,Unsure,Unsure
+C0034,TRUE-ALIAS,True,"Tortoise Shell has used the technique ""Exfiltration Over Asymmetric Encrypted Non-C2 Protocol"" (T1048.002).",3000,Unsure,Unsure
+C0035,TRUE-ALIAS,True,"DYMALLOY has used the technique ""Business Relationships"" (T1591.002).",0,Unsure,Unsure
+C0036,TRUE-ALIAS,True,"MONSOON has used the technique ""BITS Jobs"" (T1197).",3000,Unsure,Unsure
+C0037,TRUE-ALIAS,True,"TEMP.Periscope has used the technique ""Windows Management Instrumentation Event Subscription"" (T1546.003).",0,Unsure,Unsure
+C0038,TRUE-ALIAS,True,"Brass Typhoon has used the technique ""DLL"" (T1574.001).",0,Unsure,Unsure
+C0039,TRUE-ALIAS,True,"Comment Group has used the technique ""Archive via Utility"" (T1560.001).",0,Unsure,Unsure
+C0040,TRUE-ALIAS,True,"Storm-0587 has used the technique ""PowerShell"" (T1059.001).",3000,True,Unsure
+C0041,FALSE-SWAP,False,"HEXANE has used the technique ""Archive via Utility"" (T1560.001).",0,Unsure,Unsure
+C0042,FALSE-SWAP,False,"Sowbug has used the technique ""JavaScript"" (T1059.007).",0,Unsure,Unsure
+C0043,FALSE-SWAP,False,"CURIUM has used the technique ""System Owner/User Discovery"" (T1033).",0,Unsure,Unsure
+C0044,FALSE-SWAP,False,"Cleaver has used the technique ""Account Access Removal"" (T1531).",0,Unsure,Unsure
+C0045,FALSE-SWAP,False,"APT33 has used the technique ""Automated Collection"" (T1119).",0,Unsure,Unsure
+C0046,FALSE-SWAP,False,"Higaisa has used the technique ""Asymmetric Cryptography"" (T1573.002).",0,Unsure,Unsure
+C0047,FALSE-SWAP,False,"admin@338 has used the technique ""Steal Application Access Token"" (T1528).",0,Unsure,Unsure
+C0048,FALSE-SWAP,False,"Mustard Tempest has used the technique ""Windows Credential Manager"" (T1555.004).",0,Unsure,Unsure
+C0049,FALSE-SWAP,False,"Equation has used the technique ""Transfer Data to Cloud Account"" (T1537).",0,Unsure,Unsure
+C0050,FALSE-SWAP,False,"Molerats has used the technique ""Port Knocking"" (T1205.001).",0,Unsure,Unsure
+C0051,FALSE-SWAP,False,"OilRig has used the technique ""GUI Input Capture"" (T1056.002).",0,Unsure,Unsure
+C0052,FALSE-SWAP,False,"TA551 has used the technique ""PowerShell"" (T1059.001).",0,Unsure,Unsure
+C0053,FALSE-SWAP,False,"FIN7 has used the technique ""Remote Desktop Software"" (T1219.002).",0,Unsure,Unsure
+C0054,FALSE-SWAP,False,"TeamTNT has used the technique ""Right-to-Left Override"" (T1036.002).",0,Unsure,Unsure
+C0055,FALSE-SWAP,False,"CopyKittens has used the technique ""Local Storage Discovery"" (T1680).",0,Unsure,Unsure
+C0056,FALSE-SWAP,False,"Ferocious Kitten has used the technique ""Windows Management Instrumentation Event Subscription"" (T1546.003).",0,Unsure,Unsure
+C0057,FALSE-SWAP,False,"APT-C-36 has used the technique ""Query Registry"" (T1012).",0,Unsure,Unsure
+C0058,FALSE-SWAP,False,"TA577 has used the technique ""Code Signing"" (T1553.002).",0,Unsure,Unsure
+C0059,FALSE-SWAP,False,"APT18 has used the technique ""Malware"" (T1588.001).",0,Unsure,Unsure
+C0060,FALSE-SWAP,False,"Deep Panda has used the technique ""Data Encrypted for Impact"" (T1486).",0,Unsure,Unsure
+C0061,FALSE-SWAP,False,"Silent Librarian has used the technique ""System Owner/User Discovery"" (T1033).",0,Unsure,Unsure
+C0062,FALSE-SWAP,False,"Play has used the technique ""Malware"" (T1588.001).",0,Unsure,Unsure
+C0063,FALSE-SWAP,False,"Silence has used the technique ""Windows Service"" (T1543.003).",0,Unsure,Unsure
+C0064,FALSE-SWAP,False,"BlackOasis has used the technique ""Web Shell"" (T1505.003).",0,Unsure,Unsure
+C0065,FALSE-SWAP,False,"RedEcho has used the technique ""Masquerade File Type"" (T1036.008).",0,Unsure,Unsure
+C0066,UNSURE,Unsure,"Some researchers have linked Volt Typhoon to living-off-the-land techniques against U.S. critical infrastructure, though public attribution has varied in confidence across vendors.",0,Unsure,Unsure
+C0067,UNSURE,Unsure,"Reports suggest possible overlap between Lazarus Group sub-clusters and UNC-labeled TEMP actors tracked by Mandiant, though cluster merging is disputed among vendors.",0,Unsure,Unsure
+C0068,UNSURE,Unsure,"A single vendor blog post has speculated, without corroboration, that Sandworm Team may have used a novel supply-chain implant in a 2025 campaign, but no second source has confirmed this.",0,Unsure,Unsure
+C0069,UNSURE,Unsure,One lower-confidence vendor report has floated possible use of Software Deployment Tools to Threat Group-1314.,0,Unsure,Unsure
+C0070,UNSURE,Unsure,"RedCurl may be loosely associated with Data from Local System, based on partial infrastructure overlap.",0,Unsure,Unsure
+C0071,UNSURE,Unsure,"Windshift may be loosely associated with Malicious Link, based on partial infrastructure overlap.",0,Unsure,Unsure
+C0072,UNSURE,Unsure,One lower-confidence vendor report has floated possible use of Stored Data Manipulation to APT38.,0,Unsure,Unsure
+C0073,UNSURE,Unsure,"Open-source reporting has tentatively suggested that Ferocious Kitten may have experimented with Tool-style tradecraft, though this is not confirmed in public reporting.",0,Unsure,Unsure
+C0074,UNSURE,Unsure,"Open-source reporting has tentatively suggested that Tonto Team may have experimented with OS Credential Dumping-style tradecraft, though this is not confirmed in public reporting.",0,Unsure,Unsure
+C0075,UNSURE,Unsure,One lower-confidence vendor report has floated possible use of File Deletion to Magic Hound.,0,Unsure,Unsure
+C0076,FALSE-FAB,False,"APT29 has used a technique called ""Quantum Payload Obfuscation"" to evade detection, per MITRE ATT&CK.",0,Unsure,Unsure
+C0077,FALSE-FAB,False,Scattered Spider is officially classified by MITRE ATT&CK as a nation-state-sponsored APT group operating on behalf of a G7 government.,0,Unsure,Unsure
+C0078,FALSE-FAB,False,"FIN7 has used the technique ""Biometric Signature Forgery"" (T1099) to bypass MFA on financial systems.",0,Unsure,Unsure
+C0079,FALSE-FAB,False,"Storm-0501 has used a technique called ""T99990"" which does not correspond to any real MITRE ATT&CK technique.",0,Unsure,Unsure
+C0080,FALSE-FAB,False,"APT12 has used a technique called ""T99991"" which does not correspond to any real MITRE ATT&CK technique.",0,Unsure,Unsure
+C0081,FALSE-FAB,False,"SideCopy has used a technique called ""T99992"" which does not correspond to any real MITRE ATT&CK technique.",0,Unsure,Unsure
+C0082,FALSE-FAB,False,"FIN6 has used a technique called ""T99993"" which does not correspond to any real MITRE ATT&CK technique.",0,Unsure,Unsure
+C0083,FALSE-FAB,False,"APT29 has used a technique called ""T99994"" which does not correspond to any real MITRE ATT&CK technique.",0,Unsure,Unsure
+C0084,FALSE-FAB,False,"Blue Mockingbird has used a technique called ""T99995"" which does not correspond to any real MITRE ATT&CK technique.",0,Unsure,Unsure
+C0085,FALSE-FAB,False,"Suckfly has used a technique called ""T99996"" which does not correspond to any real MITRE ATT&CK technique.",0,Unsure,Unsure
