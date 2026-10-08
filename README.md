@@ -54,12 +54,26 @@ Each row in `attribution_claims_final_v2.csv`:
 | No-Retrieval Baseline | 11.8% |
 
 Both numbers are low — near or below chance. When I dug into why: out of 40 True/True-Alias claims, only 11 failed because retrieval couldn't find the right evidence. The other 29 had the correct evidence retrieved, and the entailment model *still* got 27 of those wrong. So the real bottleneck isn't retrieval — it's that the entailment model struggles to match messy, free-form CTI report text to a structured attribution claim, even when it has the right evidence in front of it. That's basically the whole motivation for the next stage of my dissertation, where I bring in Logic Tensor Networks to reason over the ATT&CK graph directly instead of relying on one black-box entailment score.
+## Labeling note
+All labels were assigned by a single author. True, True-Alias and
+False-Swap labels follow MITRE ATT&CK STIX relationships; Unsure and
+False-Fabricated claims were written manually. No second annotator was
+used, so no inter-annotator agreement is reported.
+
+## Column guide (attribution_claims_final_v2.csv)
+- claim_id: unique ID (C0001 to C0085)
+- label: TRUE, TRUE-ALIAS, FALSE-SWAP, UNSURE or FALSE-FAB
+- claim_text: the attribution claim
+- evidence_report: a source URL for TRUE and TRUE-ALIAS claims; for the
+  other classes, explanatory text (no URL)
+- notes, validation_notes: how the claim was built and checked
 
 ## Citing this
 
 ```
 J. K. Shriwas, "Entailment-Based Verification of LLM-Generated Threat Actor
 Attribution Claims: A Dataset and Baseline Study," 2026.
+
 ```
 
 ## Questions
